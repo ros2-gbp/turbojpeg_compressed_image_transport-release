@@ -2,6 +2,11 @@
 Changelog for package turbojpeg_compressed_image_transport
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.1.3 (2022-12-14)
+------------------
+* fix: add missing dependency
+* Contributors: Daisuke Nishimatsu
+
 0.1.2 (2022-12-14)
 ------------------
 * fix: rollback to humble api
