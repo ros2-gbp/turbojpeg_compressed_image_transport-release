@@ -1,0 +1,12 @@
+Source: ros-humble-turbojpeg-compressed-image-transport
+Section: misc
+Priority: optional
+Maintainer: Daisuke Nishiamtsu <border_goldenmarket@yahoo.co.jp>
+Build-Depends: debhelper (>= 9.0.0), libturbojpeg0-dev, ros-humble-ament-cmake, ros-humble-ament-lint-auto <!nocheck>, ros-humble-ament-lint-common <!nocheck>, ros-humble-image-transport, ros-humble-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-humble-turbojpeg-compressed-image-transport
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libturbojpeg0-dev, ros-humble-image-transport, ros-humble-ros-workspace
+Description: Compressed_image_transport provides a plugin to image_transport for transparently sending images encoded as JPEG by turbojpeg.
