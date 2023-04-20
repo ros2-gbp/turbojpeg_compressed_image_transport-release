@@ -1,0 +1,12 @@
+Source: ros-iron-turbojpeg-compressed-image-transport
+Section: misc
+Priority: optional
+Maintainer: Daisuke Nishiamtsu <border_goldenmarket@yahoo.co.jp>
+Build-Depends: debhelper (>= 9.0.0), libturbojpeg0-dev, ros-iron-ament-cmake, ros-iron-ament-lint-auto <!nocheck>, ros-iron-ament-lint-common <!nocheck>, ros-iron-cv-bridge, ros-iron-image-transport, ros-iron-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-iron-turbojpeg-compressed-image-transport
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libturbojpeg0-dev, ros-iron-cv-bridge, ros-iron-image-transport, ros-iron-ros-workspace
+Description: Compressed_image_transport provides a plugin to image_transport for transparently sending images encoded as JPEG by turbojpeg.
