@@ -1,0 +1,30 @@
+ros-iron-turbojpeg-compressed-image-transport (0.2.1-4bullseye) bullseye; urgency=high
+
+  * fix: replace deprecated header
+  * fix: add missing dependency
+  * Contributors: Daisuke Nishimatsu
+
+ -- Daisuke Nishiamtsu <border_goldenmarket@yahoo.co.jp>  Tue, 13 Dec 2022 16:00:00 -0000
+
+ros-iron-turbojpeg-compressed-image-transport (0.2.0-4bullseye) bullseye; urgency=high
+
+
+
+ -- Daisuke Nishiamtsu <border_goldenmarket@yahoo.co.jp>  Tue, 13 Dec 2022 16:00:00 -0000
+
+ros-iron-turbojpeg-compressed-image-transport (0.1.1-4bullseye) bullseye; urgency=high
+
+  * chore: update license and author in package.xml
+  * Contributors: Daisuke Nishimatsu
+
+ -- Daisuke Nishiamtsu <border_goldenmarket@yahoo.co.jp>  Mon, 12 Dec 2022 16:00:00 -0000
+
+ros-iron-turbojpeg-compressed-image-transport (0.1.0-4bullseye) bullseye; urgency=high
+
+  * fix: modify test
+  * feat: initial commit
+  * Contributors: Daisuke Nishimatsu
+
+ -- Daisuke Nishiamtsu <border_goldenmarket@yahoo.co.jp>  Sat, 10 Dec 2022 16:00:00 -0000
+
+
