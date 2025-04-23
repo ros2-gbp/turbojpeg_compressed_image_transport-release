@@ -1,0 +1,12 @@
+Source: ros-kilted-turbojpeg-compressed-image-transport
+Section: misc
+Priority: optional
+Maintainer: Daisuke Nishiamtsu <border_goldenmarket@yahoo.co.jp>
+Build-Depends: debhelper (>= 9.0.0), libturbojpeg0-dev, ros-kilted-ament-cmake, ros-kilted-ament-lint-auto <!nocheck>, ros-kilted-ament-lint-common <!nocheck>, ros-kilted-cv-bridge, ros-kilted-image-transport, ros-kilted-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-kilted-turbojpeg-compressed-image-transport
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libturbojpeg0-dev, ros-kilted-cv-bridge, ros-kilted-image-transport, ros-kilted-ros-workspace
+Description: Compressed_image_transport provides a plugin to image_transport for transparently sending images encoded as JPEG by turbojpeg.
