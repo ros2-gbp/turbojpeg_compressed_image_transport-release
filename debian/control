@@ -1,0 +1,12 @@
+Source: ros-lyrical-turbojpeg-compressed-image-transport
+Section: misc
+Priority: optional
+Maintainer: Daisuke Nishiamtsu <border_goldenmarket@yahoo.co.jp>
+Build-Depends: debhelper (>= 9.0.0), libturbojpeg0-dev, ros-lyrical-ament-cmake, ros-lyrical-ament-lint-auto <!nocheck>, ros-lyrical-ament-lint-common <!nocheck>, ros-lyrical-cv-bridge, ros-lyrical-image-transport, ros-lyrical-ros-workspace
+Homepage: https://index.ros.org/p/turbojpeg_compressed_image_transport/#lyrical
+Standards-Version: 3.9.2
+
+Package: ros-lyrical-turbojpeg-compressed-image-transport
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libturbojpeg0-dev, ros-lyrical-cv-bridge, ros-lyrical-image-transport, ros-lyrical-ros-workspace
+Description: Compressed_image_transport provides a plugin to image_transport for transparently sending images encoded as JPEG by turbojpeg.
